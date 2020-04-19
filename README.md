@@ -16,6 +16,7 @@ pkg updrade
 pkg install python
 cd meterpreter
 cat README
+chmod 777 *
 ./index.py
 
 Linux Ubuntu o Debian:
@@ -25,4 +26,5 @@ sudo apt-get install python3
 sudo apt-get install pip3
 cd meterpreter
 cat README
+chmod 777 *
 ./index.py
