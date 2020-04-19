@@ -14,6 +14,8 @@ Termux:
 pkg update
 pkg updrade
 pkg install python
+pkg install git
+git clone https://github.com/desmonHak/msf.git
 cd meterpreter
 cat README
 chmod 777 *
@@ -23,8 +25,10 @@ Linux Ubuntu o Debian:
 sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get install python3
-sudo apt-get install pip3
+sudo apt-get install python3-pip
+sudo apt-get install git
+git clone https://github.com/desmonHak/msf.git
 cd meterpreter
 cat README
-chmod 777 *
+sudo chmod 777 *
 ./index.py
